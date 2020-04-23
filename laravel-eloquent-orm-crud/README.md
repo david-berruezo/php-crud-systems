@@ -1,6 +1,7 @@
 # Laravel CRUD ELoquent ORM 
 ![Screenshot](data_model.gif)
 
+## Installation
 ```js
-composer global require laravel/installer
+composer install
 ```
