@@ -1,0 +1,20 @@
+# config/routes.yaml
+
+task_index_controller:
+    path: /task
+    controller: App\Controller\TaskController::index
+task_edit_controller:
+    path: /task/edit
+    controller: App\Controller\TaskController::edit
+task_edit_parameter_controller:
+    path: /task/edit/{id}
+    controller: App\Controller\TaskController::edit
+task_add_controller:
+    path: /task/add
+    controller: App\Controller\TaskController::add
+task_delete_controller:
+    path: /task/delete
+    controller: App\Controller\TaskController::delete
+task_delete_parameter_controller:
+    path: /task/delete/{id}
+    controller: App\Controller\TaskController::delete
