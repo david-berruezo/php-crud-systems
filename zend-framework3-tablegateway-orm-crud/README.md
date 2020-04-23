@@ -1,6 +1,7 @@
 # Zend Framework3 CRUD TableGateway ORM 
 ![Screenshot](data_model.gif)
 
+## Installation
 ```js
-composer create-project zendframework/skeleton-application path/to/install
+composer install
 ```
